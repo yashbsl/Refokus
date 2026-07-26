@@ -41,7 +41,7 @@ function Work() {
   ];
   return (
     <div className="w-full mt-10">
-      <div className="relative max-w-screen-xl mx-auto text-center">
+      <div className="relative max-w-7xl mx-auto text-center">
         <h1 className="text-[30vw] leading-none text-white font-medium tracking-tight select-none">
           work
         </h1>
