@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
+import { motion, useMotionValueEvent, useScroll } from "motion/react";
 
-function Work() {
-  var images = [
+function  Work() {
+ const [images, setImages]=useState([
     {
       url: "https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef09178195ce0073e38f3_Refokus%20Tools-1.png",
       top: "50%",
@@ -38,7 +39,14 @@ function Work() {
       left: "55%",
       isActive: false,
     },
-  ];
+  ])
+
+const { scrollY } = useScroll();
+
+useMotionValueEvent(scrollY, "change", (latest) => {
+  console.log("Page scroll: ", latest)
+})
+
   return (
     <div className="w-full mt-10">
       <div className="relative max-w-7xl mx-auto text-center">
@@ -50,6 +58,7 @@ function Work() {
             (elem, index) =>
               elem.isActive && (
                 <img
+                  key={index}
                   className="absolute w-60 rounded-lg -translate-x-[50%] -translate-y -[50%]"
                   src={elem.url}
                   style={{ top: elem.top, left: elem.left }}
