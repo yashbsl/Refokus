@@ -43,7 +43,11 @@ Rather than building only a static replica, the focus was on recreating the feel
 
 <div align="center">
 
-<img src="public\refokus-preview.png\ss.png" alt="Refokus Clone Website Preview" width="100%" />
+<<<<<<< HEAD
+<img src="public\Refokus_Preview.png" alt="Refokus Clone Website Preview" width="100%" />
+=======
+<img src="./public/refokus-preview.png" alt="Refokus Clone Website Preview" width="100%" />
+>>>>>>> 5508175e749d4d9b0e5e876f195b11053e79973e
 
 </div>
 
@@ -226,6 +230,14 @@ Building this project helped me strengthen my understanding of:
 - [x] CTA cards
 - [x] Footer
 - [x] Production deployment
+<<<<<<< HEAD
+=======
+- [ ] Advanced cursor interactions
+- [ ] Page transitions
+- [ ] Mobile animation optimization
+- [ ] Accessibility improvements
+- [ ] Further performance optimization
+>>>>>>> 5508175e749d4d9b0e5e876f195b11053e79973e
 
 ---
 
