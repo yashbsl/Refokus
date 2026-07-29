@@ -43,9 +43,6 @@ Rather than building only a static replica, the focus was on recreating the feel
 
 <div align="center">
 <img src="public\Refokus_Preview.png" alt="Refokus Clone Website Preview" width="100%" />
-=======
-<img src="./public/refokus-preview.png" alt="Refokus Clone Website Preview" width="100%" />
-
 </div>
 
 ---
