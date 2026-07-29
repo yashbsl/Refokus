@@ -25,7 +25,7 @@ function Marquee({ imagesurls, direction }) {
         {imagesurls.map((url, index) => (
           <img key={index} src={url} className="" />
         ))}
-      </motion.div>
+      </motion.div>n
     </div>
   );
 }
